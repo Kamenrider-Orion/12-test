@@ -9,7 +9,6 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: white;
-  padding: 0.5rem 1rem;
   height: 61.313rem;
 }
 
@@ -29,7 +28,6 @@ header {
   background-color: #5474FD;
   text-align: center;
   color: white;
-  padding: 14px 16px;
   max-height: 5.188rem;
 }
 
@@ -41,23 +39,21 @@ nav {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  max-width: 32.813rem;
 }
 
 ul li a {
   display: block;
   color: white;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -83,6 +79,28 @@ ul li a:hover {
   line-height: 1.625rem;
 }
 
+@media screen and (max-width: 426px) {
+  .menu {
+    max-height: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .head-ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 1.5rem;
+  }
+}
 input [type=search] {
   font-family: "josefin sans", sans-serif;
   color: #999999;
@@ -160,4 +178,194 @@ input [type=search] {
   font-size: 0.875rem;
   line-height: 1.625rem;
   letter-spacing: 0.1rem;
+}
+
+.why {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.why-p {
+  font-family: "josefin sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.1rem;
+  max-width: 35rem;
+  width: 100%;
+  color: #e8e8e8;
+}
+
+.why-button {
+  font-family: "aleo", sans-serif;
+  color: white;
+  background-color: #5474FD;
+  border-radius: 0rem;
+  border: 0rem;
+  max-width: 9.563rem;
+  max-height: 3.938rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.075rem;
+}
+
+.why-button:hover {
+  background-color: #3659f3;
+}
+
+.idk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #333333;
+  width: 100%;
+}
+
+.idk-text {
+  font-family: "aleo" sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: white;
+}
+
+#glass {
+  width: 3.75rem;
+  height: 3.688rem;
+  color: #5474fd;
+}
+
+.fa-circle-check {
+  width: 3.875rem;
+  height: 3.938rem;
+  color: #ff6363;
+}
+
+.fa-thumbs-up {
+  width: 4rem;
+  height: 3.813rem;
+  color: #00a2ff;
+}
+
+@media screen and (max-width: 426px) {
+  .idk-text {
+    font-family: "aleo" sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: white;
+  }
+  #glass {
+    width: 2.5rem;
+    height: 2.438rem;
+  }
+  .fa-circle-check {
+    width: 2.625rem;
+    height: 2.688rem;
+  }
+  .fa-thumbs-up {
+    width: 2.75rem;
+    height: 2.563rem;
+  }
+}
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-one {
+  background-color: #232323;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  max-width: 33.938rem;
+  width: 100%;
+}
+
+.mini-title {
+  font-family: "josefin sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.094rem;
+  color: #e8e8e8;
+}
+
+.big-title {
+  font-family: "josefin sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  color: #e8e8e8;
+}
+
+.card-text {
+  font-family: "josefin sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #e8e8e8;
+}
+
+.card-btn {
+  font-family: "aleo", sans-serif;
+  color: white;
+  background-color: #5474FD;
+  border-radius: 0rem;
+  border: 0rem;
+  max-width: 9.563rem;
+  max-height: 3.938rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.075rem;
+}
+
+.card-two {
+  background-color: #232323;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  max-width: 33.938rem;
+  width: 100%;
+}
+
+.card-three {
+  background-color: #232323;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 41.75rem;
+  width: 100%;
 }

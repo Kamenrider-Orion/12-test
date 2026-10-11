@@ -3,11 +3,12 @@ header{
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
-    padding: 0.5rem 1rem;
+    
     height: 61.313rem;
     
 }
 @import "nav";
 @import "search";
 @import "footer";
-
+@import "why";
+@import "card";

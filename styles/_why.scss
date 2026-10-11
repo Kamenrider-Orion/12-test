@@ -1,0 +1,81 @@
+.why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+}
+.why-p{
+    font-family: "josefin sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.1rem;
+    max-width: 35rem;
+    width: 100%;
+    color: #e8e8e8;
+}
+.why-button {
+    font-family: "aleo", sans-serif;
+    color: white;
+    background-color: #5474FD;
+    border-radius: 0rem;
+    border: 0rem;
+    max-width: 9.563rem;
+    max-height: 3.938rem;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.075rem;
+}
+.why-button:hover {
+    background-color: #3659f3;
+}
+.idk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #333333;
+    width: 100%;
+    
+}
+.idk-text{
+    font-family: "aleo" sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    color: white;
+}
+#glass{
+    width: 3.75rem; height: 3.688rem; color: #5474fd
+}
+.fa-circle-check{
+    width: 3.875rem; height: 3.938rem; color: #ff6363;
+}
+.fa-thumbs-up{
+    width: 4rem; height: 3.813rem; color: #00a2ff;
+}
+@media screen and (max-width: 426px) {
+    .idk-text{
+    font-family: "aleo" sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    color: white;
+    }
+    #glass{
+        width: 2.5rem;
+        height: 2.438rem;
+    }
+    .fa-circle-check{
+        width: 2.625rem;
+        height: 2.688rem;
+    }
+    .fa-thumbs-up{
+        width: 2.75rem;
+        height: 2.563rem;
+    }
+    
+}
