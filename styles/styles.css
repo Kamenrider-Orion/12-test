@@ -180,6 +180,10 @@ input [type=search] {
   letter-spacing: 0.1rem;
 }
 
+.fa-linkedin-in {
+  color: #5474fd;
+}
+
 .why {
   display: -webkit-box;
   display: -ms-flexbox;
