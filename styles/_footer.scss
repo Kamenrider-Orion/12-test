@@ -1,0 +1,22 @@
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #232323;
+    color: white;
+}
+.logo{
+    font-family: "josefin sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.21rem;
+}
+.foot-p{
+    font-family: "aleo", sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.1rem;
+}

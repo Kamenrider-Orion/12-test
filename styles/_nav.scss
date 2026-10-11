@@ -1,9 +1,25 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #5474FD;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    max-height: 5.188rem;
+}
+nav{
+    align-self: center;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #5474FD;
+  
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 ul li a {
@@ -11,8 +27,25 @@ ul li a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 ul li a:hover {
   background-color: #3659f3;
+}
+.main-page {
+    align-self: space-evenly;
+  font-family: "josefin sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.15rem;
+}
+.other-page {
+    
+  font-family: "aleo", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  
 }
